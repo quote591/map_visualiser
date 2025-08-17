@@ -19,6 +19,8 @@ message(STATUS "Here are the c sources: ${c_sources}")
 
 include_directories(${CMAKE_SOURCE_DIR}/3rdParty/glad/include)
 include_directories(${CMAKE_SOURCE_DIR}/3rdParty/GLFW/include)
+include_directories(${CMAKE_SOURCE_DIR}/3rdParty/glm)
+
 include_directories(${CMAKE_SOURCE_DIR}/src)
 include_directories(${CMAKE_SOURCE_DIR}/renderer)
 

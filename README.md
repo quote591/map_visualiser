@@ -1,6 +1,5 @@
 # map\_visualiser
 
-# Installation
 ## Dependancies
 - MinGW
 - Depends on GLFW library
@@ -15,6 +14,10 @@ compile from source.
 For the windows user, get the libs from the MinGW folder and place them in
 3rdParty/GLFW/win\_libs. Otherwise get the vs versions and compile with MSVC.
 
+### Ninja
+Ninja build system can be installed in windows with spool
+
+# Installation
 To compile and build use the following for MinGW users
 ```bash
 cmake --preset default
