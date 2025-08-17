@@ -39,3 +39,12 @@
 
 # debug information files
 *.dwo
+
+# 3rdparts src files
+*glfw_src/
+
+# cmake build dir
+build/
+
+# lsp cache files
+.cache/
